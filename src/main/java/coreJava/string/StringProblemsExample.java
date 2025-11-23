@@ -1,9 +1,8 @@
 package coreJava.string;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class StringProblems2 {
+public class StringProblemsExample {
 
     public static void main(String[] args) {
 

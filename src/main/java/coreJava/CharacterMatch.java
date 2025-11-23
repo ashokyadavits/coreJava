@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class Demo {
+public class CharacterMatch {
 
     public static void main(String[] args) {
 

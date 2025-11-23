@@ -1,8 +1,7 @@
 package coreJava.DSA.arrays;
 
-import java.util.Arrays;
 import java.util.stream.IntStream;
- class Demo16 {
+ class LeftRightSum {
 
     public static void main(String[] args) {
 

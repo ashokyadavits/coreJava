@@ -26,7 +26,7 @@ class Demo1 {
     }
 }
 
-class Demo2 {
+class Demo3 {
 
    public void m1(){
        System.out.println("Demo2 of M1");

@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
- class Demo10 {
+ class RepeatingChar {
 
     public static void main(String[] args) {
         String str = "abcabc";
