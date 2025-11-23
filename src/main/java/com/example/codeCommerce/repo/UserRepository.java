@@ -1,2 +1,11 @@
-package com.example.codeCommerce.repo;public class UserRepository {
+package com.example.codeCommerce.repo;
+
+import com.example.codeCommerce.entity.UserEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository  extends JpaRepository<UserEntity, Long> {
+
+
 }

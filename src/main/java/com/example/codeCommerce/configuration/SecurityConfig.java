@@ -1,3 +1,4 @@
+/*
 package com.example.codeCommerce.configuration;
 
 import org.springframework.context.annotation.Bean;
@@ -37,4 +38,4 @@ public class SecurityConfig {
     public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
         return config.getAuthenticationManager();
     }
-}
+}*/

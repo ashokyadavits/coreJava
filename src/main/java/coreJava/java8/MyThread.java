@@ -1,4 +1,4 @@
-package multithreading;
+package coreJava.java8;
 
 public class MyThread {
 
