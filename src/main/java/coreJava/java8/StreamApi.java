@@ -47,15 +47,10 @@ public class StreamApi {
         String reves = "abcd";
         String reverse ="";
         for(int i = reves.length()-1; i>=0; i--) {
-
             reverse = reverse + reves.charAt(i);
             System.out.println(reverse);
 
-
         }
-
-
-
     }
 
 }
