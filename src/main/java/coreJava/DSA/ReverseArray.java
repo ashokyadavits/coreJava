@@ -1,2 +1,7 @@
-package coreJava.DSA;public class ReverseArray {
+package coreJava.DSA;
+
+public class ReverseArray {
+    public static void main(String[] args) {
+
+    }
 }

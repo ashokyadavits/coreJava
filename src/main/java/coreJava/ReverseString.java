@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-class Demo13 {
+class ReverseStringProgram {
     public static void main(String[] args) {
         String fname = "Ashok";
         String lname = "yadav";

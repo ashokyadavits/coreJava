@@ -1,4 +1,4 @@
-package java8;
+package coreJava.java8;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

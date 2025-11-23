@@ -1,4 +1,4 @@
-package java8;
+package coreJava.java8;
 
 import java.util.Arrays;
 import java.util.List;
@@ -22,4 +22,3 @@ public class FlatMapClass {
             System.out.println(uniqueWords);
         }
     }
-
