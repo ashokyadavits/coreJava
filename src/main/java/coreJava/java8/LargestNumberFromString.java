@@ -1,4 +1,4 @@
-package java8;
+package coreJava.java8;
 
 import java.util.Arrays;
 
@@ -17,4 +17,3 @@ public class LargestNumberFromString {
             System.out.println("Largest number: " + max);
         }
     }
-

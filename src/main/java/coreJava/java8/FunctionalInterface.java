@@ -1,4 +1,4 @@
-package java8;
+package coreJava.java8;
 
 public class FunctionalInterface {
 
