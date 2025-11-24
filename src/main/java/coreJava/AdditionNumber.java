@@ -1,6 +1,6 @@
 package coreJava;
 
- class Demo {
+ class AdditionToKey {
     public static void main(String[] args) {
 
         int[] num  = {3, 9, 10, 5, 6, 7, 8};

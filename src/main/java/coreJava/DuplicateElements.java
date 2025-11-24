@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-public class Demo2 {
+public class DuplicateElements {
 
     public static void main(String[] args) {
 
