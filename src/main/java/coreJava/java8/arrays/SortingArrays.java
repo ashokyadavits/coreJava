@@ -1,13 +1,7 @@
 package coreJava.java8.arrays;
 
-import jakarta.persistence.criteria.CriteriaBuilder;
-import org.apache.logging.log4j.util.PropertySource;
-import org.springframework.util.comparator.Comparators;
-
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
-import java.util.stream.Collectors;
 
 public class SortingArrays {
 
