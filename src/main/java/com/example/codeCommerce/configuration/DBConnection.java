@@ -14,15 +14,15 @@ class DataSourceConfig {
     public DataSource dataSource() {
         HikariConfig config = new HikariConfig();
 
-        // MySQL Database Connection Details
-        config.setJdbcUrl("jdbc:mysql://localhost:3306/codecommerce?useSSL=false&serverTimezone=UTC");
+        // Correct MySQL URL
+        config.setJdbcUrl("jdbc:mysql://localhost:3306/codecommerce?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC");
         config.setUsername("root");
         config.setPassword("root");
 
         // Driver
         config.setDriverClassName("com.mysql.cj.jdbc.Driver");
 
-        // HikariCP Settings (recommended)
+        // HikariCP Settings
         config.setMaximumPoolSize(10);
         config.setMinimumIdle(5);
         config.setIdleTimeout(30000);
