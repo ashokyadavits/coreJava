@@ -17,5 +17,21 @@ public class CharacterCounting {
 
         Map<Object, Long> result = list.stream().collect(Collectors.groupingBy(n->n, Collectors.counting()));
         System.out.println(result);
+
+        // zero shifting
+
+        int [] ar = {1,0,2,0,4,0};
+        int index = 0;
+        for(int num : ar){
+            if(num !=0){
+                ar[index++] = num;
+            }
+        }
+        while (index < ar.length){
+            ar[index++] = 0;
+        }
+        System.out.println(Arrays.toString(ar));
+
+
     }
 }

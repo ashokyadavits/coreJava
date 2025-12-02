@@ -70,7 +70,7 @@ public class Employee {
 
         );
 
-      Map<Double, List<Employee>> result =  empList.stream().collect(Collectors.groupingBy((Employee :: getSalary)));
+      Map<Double, List<Employee>> result =  empList.stream().collect(Collectors.groupingBy((Employee:: getSalary)));
 
         System.out.println(result);
 
@@ -92,7 +92,7 @@ public class Employee {
 
         // lowest paid emp
 
-        Optional<Employee> result5 = empList.stream().min(Comparator.comparingDouble(Employee ::getSalary));
+        Optional<Employee> result5 = empList.stream().min(Comparator.comparingDouble(Employee::getSalary));
         System.out.println(result5);
 
 
