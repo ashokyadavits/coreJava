@@ -56,21 +56,14 @@ public class ArrayCode {
             }
         }
 
-
         int num[] = {1, 0, 2, 3, 0, 4};
         int num1[] = new int[5];
 
         for (int i = 0; i < num.length; i++) {
-
             if (i > 0) {
                 i++;
-
             }
             System.out.print(i);
         }
-
-
     }
-
-
 }

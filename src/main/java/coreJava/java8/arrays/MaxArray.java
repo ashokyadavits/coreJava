@@ -10,6 +10,11 @@ public class MaxArray {
         int result = Arrays.stream(ar).boxed().sorted(Comparator.reverseOrder()).findFirst().orElseThrow();
         System.out.println(result);
 
+        int max = Arrays.stream(ar).max().orElseThrow();
+        System.out.println(max);
+
+        int min = Arrays.stream(ar).min().orElseThrow();
+        System.out.println(min);
 
     }
 }

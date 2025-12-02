@@ -15,5 +15,13 @@ public class BinarySearch {
         int index = Arrays.stream(ar).boxed().collect(Collectors.toList()).indexOf(key);
         System.out.println(index);
 
+        // normal method
+
+        for(int i = 0 ; i < ar.length-1; i++){
+            if(ar[i] == key){
+                System.out.println(ar[i]);
+            }
+        }
+
     }
 }
