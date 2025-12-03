@@ -7,7 +7,6 @@ public class SelectionSort {
 
         // selection sort
         for (int i = 0; i < arr.length - 1; i++) {
-
             int minIndex = i;  // assume the first unsorted element is the minimum
 
             for (int j = i + 1; j < arr.length; j++) {
