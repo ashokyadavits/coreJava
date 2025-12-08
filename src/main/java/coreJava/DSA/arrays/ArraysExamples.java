@@ -1,5 +1,7 @@
 package coreJava.DSA.arrays;
 
+import java.util.Arrays;
+
 public class ArraysExamples {
     public static void main(String[] args) {
 
@@ -12,6 +14,11 @@ public class ArraysExamples {
         for (int i = 0; i < arr1.length; i++) {
             System.out.println(arr1[i]);
         }
+
+        //
+
+        int max = Arrays.stream(arr1).max().orElseThrow();
+        System.out.println(max);
 
     }
 }

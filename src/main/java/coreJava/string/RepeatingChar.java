@@ -11,8 +11,8 @@ import java.util.stream.Collectors;
         String str = "abcabc";
         List<String> list = Arrays.asList(str.split(""));
 
-        String result = list.stream().distinct().filter(n -> Collections.frequency(list, n) > 1).skip(1).findFirst().get();
-
+        String result = list.stream().distinct().filter(n -> Collections.frequency(list, n) > 1).
+                skip(1).findFirst().get();
         System.out.println(result);
     }
 
