@@ -11,8 +11,6 @@ public class DataStructure {
         List<Integer> result = number.stream().filter(n -> n >3 ).toList();
         System.out.println(result);
 
-
-
     }
 
 }
