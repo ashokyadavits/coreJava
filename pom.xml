@@ -94,7 +94,9 @@
 							<artifactId>lombok</artifactId>
 						</path>
 					</annotationProcessorPaths>
-				</configuration>
+                    <source>19</source>
+                    <target>19</target>
+                </configuration>
 			</plugin>
 
 			<plugin>
