@@ -13,5 +13,13 @@ public class CommonElements {
         List<String> commonElements = list1.stream().filter(list2 :: contains).toList();
         System.out.println(commonElements);
 
+        int [] ar = {10,20,30,40};
+        int [] arr = new int[5];
+        arr [0] = 10;
+        arr[1] = 20;
+
+        System.out.println(Arrays.toString(ar));
+        System.out.println(Arrays.toString(arr));
+
     }
 }

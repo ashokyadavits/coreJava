@@ -14,8 +14,6 @@ public class ArrayCode {
 
         int[][] ab = new int[2][2];
 
-        ///
-
         int[] abcd = {1, 2, 3, 4};
         int[] abcd1 = {8, 9, 10};
         int[][] arr = {{1, 2, 3}, {4, 5, 6}};

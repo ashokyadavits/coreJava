@@ -8,7 +8,6 @@ public class LinearSearch {
         int target = 30;
 
         int index = linearSearch(arr, target);
-
         if (index != -1)
             System.out.println("Found at index: " + index);
         else
