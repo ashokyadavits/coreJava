@@ -6,8 +6,6 @@ import java.util.Map;
 public class LRUCache<K, V> extends LinkedHashMap<K, V> {
 
     // LRU Cache using LinkedHashMap
-
-
     private final int capacity;
 
     public LRUCache(int capacity) {
@@ -26,12 +24,10 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
         cache.put(1, "A");
         cache.put(2, "B");
         cache.put(3, "C");
-
         System.out.println(cache);
 
         cache.get(1);   // Access 1 (makes it MRU)
         cache.put(4, "D"); // removes key 2 (LRU)
-
         System.out.println(cache);
     }
 }

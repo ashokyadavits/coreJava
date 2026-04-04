@@ -1,2 +1,4 @@
-package com.example.codeCommerce.controller;public class ProductController {
+package com.example.codeCommerce.controller;
+
+public class ProductController {
 }

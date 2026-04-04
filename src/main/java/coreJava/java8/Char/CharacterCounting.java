@@ -32,6 +32,18 @@ public class CharacterCounting {
         }
         System.out.println(Arrays.toString(ar));
 
+        int index1 = ar.length-1;
+
+        for(int i = ar.length-1; i >=0; i--){
+            if(ar[i] !=0){
+                ar[index1--] = ar[i];
+            }
+        }
+        while (index1>=0){
+            ar[index1--] = 0;
+        }
+        System.out.println(Arrays.toString(ar));
+
 
     }
 }
